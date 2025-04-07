@@ -1,0 +1,2 @@
+first line on file A
+second line
