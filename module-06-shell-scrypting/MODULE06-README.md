@@ -24,6 +24,13 @@ Main script file: `scripting-lab.sh`
 
 - Script: `backup.sh`
 - Function: Creates a compressed backup of a specified directory with timestamp and logs the result.
+## 🕒 Automation: Daily Backup via Cron
+
+- **Cron Job Configured**: The backup script is set to run automatically **every day at 2:00 AM**.
+- **Cron line** (added via `crontab -e`):
+
+```cron
+0 2 * * * /home/Dawid/Linux-Labs/module-06-shell-scripting/module06-backup.sh
 
 ---
 
